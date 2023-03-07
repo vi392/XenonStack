@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <!-- CSS Sheet -->
+    <link rel="stylesheet" href="./Login.css">
+</head>
+<body>
+    <nav>
+        <img src="./gndec logo.png" alt="logo">
+        <a href="/"></a>
+        <!-- <ul>
+            <li><a href="https://www.gndec.ac.in/">Home</a></li>
+            <li><a href="/about/about.html">About Us</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul> -->
+    </nav>
+    <form >
+        <h1> Login Page</h1>
+        <label for="Email">Email</label>
+        <input type="Email" id="Email" placeholder="Enter Your Email.."/>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter Your password.."/>
+        <label for="cnfrm-password">Confirm Password</label>
+        <input type="password" id="cnfrm-password" placeholder="Confirm password here.." />
+        <p id="message"></p>
+        <input type="button"  onclick="checkPassword()" value="SUBMIT"/>
+
+        <div class="register">
+            <p>don't have an account ?</p>
+            <a href="Register.html">Register Here</a>
+        </div>
+    </form>
+</body>
+
+<!-- JavaScript -->
+<script src="./Login.js"></script>
+</html>
